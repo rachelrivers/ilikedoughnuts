@@ -1,0 +1,104 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+body {
+    margin: 0;
+    /* background-color: #F3D8C7; */
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* Header + Navigation */
+
+.bg-image {
+    height:200px;
+    background-image: url("https://placeholder.it/300/700");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style:none;
+
+}
+
+/* li {
+    
+} */
+
+nav {
+    background-color: #64B6AC;
+}
+
+nav a {
+    display:block;
+    padding: 10px;
+    color: white;
+    background-color: #64B6AC;
+    font-size: 20px;
+
+}
+
+nav a:hover {
+    color: #FEE9E1;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.dropdown-list {
+    position:relative;
+}
+
+.dropdown {
+    position:absolute;
+    display: none;
+}
+
+nav ul li:hover .dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Content */
+
+
+.Content-container {
+/* background-color: white; */
+width: auto;
+height: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 80px;
+margin-left: 80px;
+}
+
+
+/* Blog Posts/ News */
+
+
+
+
+
+
+/* Footer */
+
+
+footer {
+    background-color: #B09E99; 
+}
