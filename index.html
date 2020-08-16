@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Suez+One&display=swap" rel="stylesheet">
 
     <title>Document</title>
 </head>
 <body>
     <div class="Header bg-image"></div>
-    <nav>
+    <nav id="navigationBar">
         <ul>   
         <li><a href="#">Menu</a></li>
         <li class="dropdown-list"><a href="#">Order</a>
@@ -20,35 +20,65 @@
                 <li><a href="#">Online Orders</a></li>
                 <li><a href="#">Special Events</a></li>
                 <li><a href="#">Merchandise</a></li>
-                <li><a href="#">Contact</a></li>
             </ul></li>
         <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
        </ul>
     </nav>
 
 
     <main>
-        <div class="Content-container">
+        <div class="content-container">
         <div>  
-        <h3>Header!</h3>
+        <h2>Dolly's Doughnuts</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate tempora cum, ducimus nemo iure natus accusantium vitae laudantium, provident, impedit repellat mollitia consectetur nulla dolores ipsum consequatur doloribus? Earum, numquam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque mollitia obcaecati deserunt quae incidunt sed laudantium voluptate. Vel architecto laborum accusamus. Doloremque culpa nobis, deleniti asperiores quos illo mollitia provident? Could put links here branching to various content</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae laborum, enim quo a nam iure ab. Sunt doloribus perspiciatis nulla illum ex optio quisquam assumenda rem porro, vero, alias id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tenetur aut itaque reiciendis aspernatur recusandae, neque omnis tempora sapiente, totam perspiciatis, minus reprehenderit laboriosam. Aspernatur delectus doloremque maxime sunt necessitatibus!</p>
         </div>
-        <div class="Content-About">
-        <h3>How it Started</h3>
-        <div class="image-wrapper">   
-        <!-- Image here --> 
-        </div>
+    
+    
+            <img src="images/coffeeshop.jpg" class="image-wrap" alt="coffee shop inside">
+ 
+        <div class="content-About">
+        <h2>How it Started</h2>
+      
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum itaque iste eveniet voluptatibus optio unde neque dolor eligendi a commodi, totam dignissimos eius nesciunt cupiditate sunt corporis natus omnis obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit blanditiis fuga veniam perferendis ipsa, labore esse aliquam officia nihil rerum molestiae nemo, iste, quas aut eligendi nesciunt. Dolorem, eveniet sed.</p>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat est quas quam repudiandae, deleniti enim harum minima, tenetur maxime quidem eveniet autem assumenda, molestias nobis repellat doloribus optio necessitatibus quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quam ipsum reprehenderit totam! Quaerat, asperiores officiis voluptatem blanditiis recusandae nobis quae exercitationem eius veritatis laborum! Sunt ea aliquid assumenda in.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero unde quas explicabo reprehenderit culpa blanditiis minima fugiat, voluptatibus impedit, et numquam alias quod consequuntur, quae minus possimus? Numquam, maxime!lorem</p>
         </div>
     </div>
 
 <!-- BLOG here -->
 
+<div class="content-blog">
+<h2>Latest from the Blog</h2>
+<div class="blog-card">
+ 
+    <img src="images/french_cruller.jpg" alt="french crullers" width="300" height="200">
+    <div class="container">
+    <h4><a href="#">Crullers, Fritters, Dutchies: The Doughnut Glossary</a></h4>
+    <p>Here is our official Doughnut Glossary for donut terms around the <a href="https://en.wikipedia.org/wiki/Doughnut#Regional_variations">world</a>. Crullers, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam sunt repellat consectetur quis beatae, ... <a href="#">Read More...</a></p> 
+    </div>
+</div>
+
+<div class="blog-card">
+    <img src="images/Fresh_Brewed_Coffee.jpeg" alt="placeholder" width="300" height="200">
+    <div class="container">
+    <h4><a href="#">Save the Coffee, Protect Our Rainforests!</a></h4>
+    <p>The Dolly's Team supports <a href="https://rainforestpartnership.org/coffee-and-the-rainforest/">rainforest conservation.</a> Coffee production is a large contributor to deforestation. But research shows coffee grows better in the shade... <a href="#">Read More...</a></p>
+    </div>
+</div>
+
+<div class="blog-card">
+    <img src="images/homemadedonut.jpg" alt="placeholder" width="300" height="200">
+    <div class="container">
+    <h4><a href="#">DIY Donut Recipes for Kids</a></h4>
+    <p>Here are some baking and <a href="https://www.allrecipes.com/search/results/?wt=dougnuts">donut</a> recipes for cooking at home with the kids. Tip: Use fun toppings like cereal!..<a href="#">Read More...</a></p>
+</div>
 
 
-        </div>
+
     </main>
 
     <footer>
@@ -63,8 +93,8 @@
 
 
 <div> 
-    <h4>More Information</h4>
-    <ul>
+    
+    <ul><h4>More Information</h4>
         <li><a href="#">Allergy Information</a></li>
         <li><a href="#">Weddings & Events</a></li>
         <li><a href="#">COVID-19 Updates</a></li>
@@ -72,8 +102,8 @@
 </div>
 
     <div class="socials">
-        <h4>Get in Touch</h4>
-    <ul>
+        
+    <ul><h4>Get in Touch</h4>
         <li><a href="#">Contact</a></li>
         <li><a href="#">Merchandise</a></li>
         <li><a href="#">Privacy Policy</a></li>
