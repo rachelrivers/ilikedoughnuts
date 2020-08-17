@@ -1,7 +1,7 @@
-/*Media Queries go here**/
 
 html {
   box-sizing: border-box;
+
 }
 *,
 *:before,
@@ -9,6 +9,25 @@ html {
   box-sizing: inherit;
 }
 
+/* Scrollbar? */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #FAD4C0; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #B09E99; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FEE9E1; 
+  }
 
 body {
     margin: 0;
@@ -25,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .bg-image {
     height:250px;
-    background-image: url("https://images.unsplash.com/photo-1551808125-19519a10b138?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-image: url("https://images.unsplash.com/photo-1527904324834-3bda86da6771?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1293&q=80");
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,7 +140,7 @@ margin-left: 80px;
 
 .content-blog {
     width: auto;
-    height: auto;
+    min-height:400px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 80px;
@@ -137,7 +156,9 @@ margin-left: 80px;
     margin-bottom: 20px;
     padding:10px;
     position:relative;
-    display:block;
+    display: block;
+    overflow: scroll;
+
   }
   
   .blog-card:hover {
@@ -148,11 +169,33 @@ margin-left: 80px;
 
 
   .container {
+    min-height:400px;
+    min-width:auto;
     padding: 2px 16px;
     margin-left: 10%; 
     position:absolute;
-    display: inline;
+    display:inline;
+  
   }
+
+
+/* Menu */
+
+.menu-container {  
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.text-container {
+    display:flex;
+    justify-content: center;
+}
+
+
 
 
 
