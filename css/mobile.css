@@ -1,0 +1,33 @@
+@media screen and (max-width: 550px) {
+
+/*Nav*/
+
+nav ul {
+    display:flex;
+    flex-flow:column;
+}
+
+.dropdown {
+    display:block;
+    position:relative;
+}
+
+.image-wrap {
+    height:100%;
+    width:100%;
+}
+
+.gallery-wrapper {
+    display:flex;
+    flex-flow:column;
+}
+
+/*Footer*/
+
+.Footer-content {
+    display:flex;
+    flex-flow:column;
+    justify-content:center;
+}
+
+}
